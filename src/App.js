@@ -1,16 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
+let camera = null; //相机
+let scene = null; //场景
+let renderer = null; //渲染器
+let container = null; //three挂载对象
+let controls = null; //控件
+
 function App() {
-  let camera = null; //相机
-  let scene = null; //场景
-  let renderer = null; //渲染器
-  let container = null; //three挂载对象
   //let controls = null; //控件
     //初始加载场景
     const createtHREE = () => {
-      let controls = null; //控件
       //新建场景
       scene = new THREE.Scene();
       //新建一个相机（相当于眼睛，只有有了眼睛才能视物）
