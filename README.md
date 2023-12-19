@@ -2,7 +2,8 @@
 
 ## ThreeJS
 
-- install: `npm install three --save`
+- install: `npm install`
+  - `npm install three --save`
 - cd webgl-study
 - `npm run start`
 
