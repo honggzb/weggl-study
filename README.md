@@ -1,4 +1,4 @@
-# React-ThreeJS
+# React-ThreeJS boilerplate
 
 ## ThreeJS
 
