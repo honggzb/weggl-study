@@ -78,7 +78,7 @@ function App() {
   }
 
   useEffect(() => {
-    if(!scene) { createtHREE();}
+    createtHREE();
   }, []);
 
   return <div id="container"></div>;
