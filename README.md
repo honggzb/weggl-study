@@ -1,4 +1,4 @@
-# weggl-study
+# React-ThreeJS
 
 ## ThreeJS
 
